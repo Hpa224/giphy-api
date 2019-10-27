@@ -1,0 +1,30 @@
+#seperator {
+    height: 50px;
+}
+
+
+#textdiv,
+#submitbutton,
+#buttondiv {
+    position: relative;
+    margin: auto;
+}
+
+#entry {
+    width: 350px;
+}
+
+.gifbuttons,
+#submit {
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 119, 199);
+    transition-duration: 0.4s;
+}
+
+.gifbuttons:hover {
+    background-color:  rgb(0, 88, 146);
+}
+
+#submit:hover {
+    background-color:  rgb(0, 88, 146);
+}
